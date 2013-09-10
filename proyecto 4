@@ -1,0 +1,20 @@
+/
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+int main()
+{
+	float A,B,C,R;
+	cout<<"ingrese A";
+	cin>>A;
+	cout<<"ingrese B";
+	cin>>B;
+	cout<<"ingrese C";
+	cin>>C;
+	R=(A+B+C)*4.0;
+	cout<<"ingreso total;"<<R;
+	getch();
+	return 0;
